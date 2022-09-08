@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.content {
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+span{
+    width: 45%;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    color: black;
+    
+}
+
+.textField {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 320px;
+    color: black;
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+
+img {
+    width: 55%;
+    align-self: center;
+    padding: 8px;
+}
+
+@media (max-width: 800px) {
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+    span {
+        width: 100%;
+        
+    }
+
+    img {
+        width: 85%;
+        padding: 0%;
+        padding-top: 10px;
+    }
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+

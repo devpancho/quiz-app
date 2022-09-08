@@ -1,0 +1,19 @@
+body {
+    color: black;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+    display: flex;
+    font-style: normal;
+    
+    
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

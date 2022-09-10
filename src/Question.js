@@ -36,7 +36,7 @@ const Question = ({ score, setScore, questions, setQuestions, correct, options, 
 
          const nextHandler = () => {
             if (currentQuestion>18) {
-                history.push('./reult')
+                history.push('./result')
             }
             else if (selected) {
                 setCurrentQuestion(currentQuestion + 1)
